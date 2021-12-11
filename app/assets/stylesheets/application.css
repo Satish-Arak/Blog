@@ -17,9 +17,9 @@
  /* <%= stylesheet_link_tag url ('/home/satish/BBWork/blog/app/assets/images/sweet.jpeg') %> */
 
  
- A{text-decoration: none;}
- body {
-  background-color: rgb(115, 223, 163);                   
+A{text-decoration: none;}
+body {
+  background-color: rgb(97, 218, 137);                   
   text-align: center;    
 }
 
@@ -32,15 +32,12 @@
 h1{text-shadow: 3px 3px rgb(182, 150, 150)}
 
 table{
-  padding: 30px;
-  border-style: solid;
-  border-width: 2px;
+  padding: 30px
   /* text-align: left;  */
   border-color: rgb(218, 85, 85);           
   border-radius: 100px;
 }
 table td {
-
   border: 1px solid rgb(29, 20, 20);
 }
 

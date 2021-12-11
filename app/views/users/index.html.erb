@@ -1,0 +1,11 @@
+<h1>Users email</h1>
+<div id = "a">
+<table>
+  <% @user.each do |user| %>
+    <tr>
+    <td><%= link_to "#{user.email}" %></td>
+    </tr>
+<% end %>
+</table>
+</div>  
+<td><%= link_to 'Back', articles_path %></td>
